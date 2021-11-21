@@ -106,6 +106,7 @@ const askContractToMintNft = async () => {
     try {
       const { ethereum } = window;
 
+
       if (ethereum) {
         const provider = new ethers.providers.Web3Provider(ethereum);
         const signer = provider.getSigner();
